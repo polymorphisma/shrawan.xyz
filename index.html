@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- js -->
+    <script src="script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+
+
+
+    <title>I can see you👀</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-text">portfolio website</div>
+
+    </nav>
+    <div class="containers" id="portfolio">
+        <!-- <div class="ball"></div> -->
+        <!-- <a href="https://www.linkedin.com/yourprofile" target="_blank" class="linkedin-icon"><i class="fa fa-linkedin"></i></a> -->
+        <div class="icon-container">
+            <a href="https://www.linkedin.com/in/shrawansunar/" target="_blank" class="floating-icon linkedin-icon"><i
+                    class="fa fa-linkedin-square"></i></a>
+            <a href="https://www.facebook.com/shrawan.sunar.6" target="_blank" class="floating-icon facebook-icon"><i
+                    class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/shrawansunar.6/" target="_blank" class="floating-icon instagram-icon"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://github.com/polymorphisma" target="_blank" class="floating-icon github-icon"><i
+                    class="fa fa-github-square"></i></a>
+        </div>
+
+        <div class="main-container">
+            <div class="inner-container">
+                <div class="text-container">
+                    <p class="first-text">Hi,</p>
+                    <p class="second-text">I am</p>
+                    <p class="third-text" id="animated-text"></p>
+                </div>
+                <div class="image-container">
+                    <img src="/image/me.jpg" alt="My image">
+                </div>
+            </div>
+            <div class="button-container">
+                <!-- <button class="download-button"><i class="fa fa-download"></i> Download CV</button>                         -->
+
+                <div class="buttons">
+                    <a class="creative-button download-csv" href="/files/resume.pdf" download>Download CV</a>
+                    <a href="mailto:shrawansunar.6@gmail.com" target="_blank" class="creative-button contact-me">Contact
+                        me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="containers" id="projects">
+        <div class="project-content">
+            <div class="project-cards">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg  mx-6">
+                    <img class="w-full" src="/image/mavefund.png" alt="Mavefund.com">
+                    <div class="">
+                        <div class="font-bold text-xl mb-2">Mavefund</div>
+                        <p class="text-gray-700 text-base">
+                            Mavefund is an encompassing website that provides free fundamental data of companies, stock screnner dashboard to customize invetsment strategies, AI-powered market projections and AI-powered portfolio allocation capable of outperforming the market.
+                        </p>
+                    </div>
+                    <div class="py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#FastAPI</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Postgres</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Javascript</span>
+                    </div>
+                </div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg  mx-6">
+                    <img class="w-full" src="/image/nepse.jpeg" alt="Nepse Scraper">
+                    <div class="">
+                        <div class="font-bold text-xl mb-2">Nepse Scraper</div>
+                        <p class="text-gray-700 text-base">
+                            Python module that provides convenient access to the Nepal Stock Exchange (NEPSE) API, enabling developers and analysts to retrieve stock market data and improve investment decisions.
+                        </p>
+                    </div>
+                    <div class="py-4">
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Python</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Web Scraping</span>
+                        <span
+                            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Python Package(Pypi)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gitub-contribution">
+                <div>
+                    <p>Github Contribution of last year</p>
+                    <img src="https://ghchart.rshah.org/polymorphisma" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- <section>
+        <model-viewer class="avatar" src="https://models.readyplayer.me/65ef238b0d14e501b7174d31.glb"
+        alt="A 3D model of an avatar" camera-controls autoplay></model-viewer>
+    </section> -->
+
+</body>
+
+</html>
