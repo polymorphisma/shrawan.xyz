@@ -22,7 +22,7 @@ jobs:
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
-          password: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           rm: true
           source: ${{ github.workspace }}
           target: "${{ secrets.REMOTE_DIR }}"
