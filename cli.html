@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cli Domain</title>
+  <link rel="stylesheet" href="./assets/css/cli.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="terminal">
+      <div class="controls">
+        <ul>
+          <li id="hide">&CircleMinus;</li>
+          <li id="quit">&CircleTimes;</li>
+        </ul>
+      </div>
+      <div class="message">
+        <p>
+          Welcome to ShellFolio v1992.05 !<br />Session based UUID:
+          <span class="session-userid"></span><br />Type
+          <span id="helper">"help" </span>to
+          see available commands. <br /><span id="case-sense">All Commands are case
+            insensitive.
+          </span>
+        </p>
+      </div>
+      <div id="insert" class="dynamic-content"></div>
+    </div>
+  </div>
+  <div class="maximize-terminal footer-on-exit">
+  </div>
+  <div class="footer">
+    <p>
+      Coded with
+      <span id="coded-with">&hearts; </span>by
+      <a target="_blank" class="dev-credit"
+        href="https://github.com/polymorphisma">@polymorphisma</a>
+    </p>
+  </div>
+  <script src="./assets/js/cli.js"></script>
+</body>
+
+</html>
