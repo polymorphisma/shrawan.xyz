@@ -218,3 +218,10 @@
   /******/
 })()
   ;
+
+document.addEventListener('click', function(event) {
+    // Prevent focusing on the input box if the click was inside the input box
+    if (event.target.id !== 'command-input') {
+        document.getElementById('command-input').focus();
+    }
+});
