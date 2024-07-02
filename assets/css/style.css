@@ -37,8 +37,26 @@ body::-webkit-scrollbar {
   width: 100vw;
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  z-index: 1000; /* Ensure it's on top of other content */
+  font-size: 12px;
+
+}
+.dev-credit {
+  font-weight: 300;
+  text-align: center;
+  color: #f5084f;
+  text-decoration: none;
+}
 #portfolio{
   justify-content: center;
   height: 100vh;
