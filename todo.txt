@@ -1,0 +1,5 @@
+add nano 
+add extenstion in the ls command texts so that user can use cat to show the contents of the files.
+changes contact to contract to skills section
+add other commands such as ls, clear|cls etc in the help
+open option in homepage for the cli domain.

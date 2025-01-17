@@ -39,18 +39,17 @@ body::-webkit-scrollbar {
   align-items: center;
   flex: 1;
 }
-
-footer {
+/* footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   padding: 10px;
   text-align: right;
-  z-index: 1000; /* Ensure it's on top of other content */
+  z-index: 1000; 
   font-size: 12px;
-}
-footer.dev-credit {
+}  */
+.footer .dev-credit {
   font-weight: 300;
   text-align: center;
   color: #f5084f;
